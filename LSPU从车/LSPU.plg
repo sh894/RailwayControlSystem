@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LSPU - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP28E8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/LSPU.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\study\信息系统工程与实践\机车同步控制系统final\机车同步控制系统 final\LSPU从车\LSPU.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP28E8.tmp" 
+<h3>Output Window</h3>
+Compiling...
+LSPU.cpp
+d:\study\信息系统工程与实践\机车同步控制系统final\机车同步控制系统 final\lspu从车\lspu.cpp(4) : fatal error C1083: Cannot open precompiled header file: 'Debug/LSPU.pch': No such file or directory
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+LSPU.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

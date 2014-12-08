@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LSPU - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/LSPU.res" /d "_DEBUG" /d "_AFXDLL" "D:\机车同步控制系统 new\机车同步控制系统\LSPU主车\LSPU.rc"" 
+Creating temporary file "C:\DOCUME~1\clab\LOCALS~1\Temp\RSP42.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/LSPU.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\机车同步控制系统 new\机车同步控制系统\LSPU主车\frame.cpp"
+"D:\机车同步控制系统 new\机车同步控制系统\LSPU主车\LSPU.cpp"
+"D:\机车同步控制系统 new\机车同步控制系统\LSPU主车\LSPUDlg.cpp"
+"D:\机车同步控制系统 new\机车同步控制系统\LSPU主车\RS485.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clab\LOCALS~1\Temp\RSP42.tmp" 
+Creating temporary file "C:\DOCUME~1\clab\LOCALS~1\Temp\RSP43.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/LSPU.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\机车同步控制系统 new\机车同步控制系统\LSPU主车\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clab\LOCALS~1\Temp\RSP43.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LSPU.pdb" /debug /machine:I386 /out:"Debug/LSPU.exe" /pdbtype:sept  ".\Debug\frame.obj" ".\Debug\LSPU.obj" ".\Debug\LSPUDlg.obj" ".\Debug\RS485.obj" ".\Debug\StdAfx.obj" ".\Debug\LSPU.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+frame.cpp
+LSPU.cpp
+LSPUDlg.cpp
+RS485.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LSPU.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
